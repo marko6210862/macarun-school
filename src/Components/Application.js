@@ -64,10 +64,7 @@ function Application (){
                         <button className="btnCurs">
                             <Link to="/Contact" className="curs" >Записаться на курс</Link>
                         </button> 
-                        
                     </div>
-                    
-                    
                 </div>             
             </div>
         )

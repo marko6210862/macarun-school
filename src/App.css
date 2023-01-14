@@ -263,6 +263,7 @@ padding-top: 20px;
 }
 
 /* Application */
+
 .fon-about {
 display: flex;
 justify-content: center;
@@ -271,11 +272,9 @@ height: 100%;
 }
 
 .application-block {
-
 display: flex;
 flex-direction: column;
 align-items: center;
-height: 100%;
 }
 
 .fon-style {
@@ -317,6 +316,7 @@ font-size: 18px;
 }
 
 .row {
+flex-wrap: wrap;
 font-family: 'Open Sans', sans-serif;
 }
 
@@ -343,7 +343,7 @@ border: 1px solid rgb(43, 32, 18);
 .container-learning {
 display: flex;
 justify-content: center;
-
+flex-wrap: wrap;
 }
   
 /* Examples */
@@ -447,7 +447,9 @@ bottom: 0;
 height: 900px;
 }
 
-@media (max-width:768px) {
+/* Средний */
+
+@media (max-width:800px) {
 .Image {
 width: 600px;
 height: 400px;
@@ -575,11 +577,6 @@ color: rgb(40, 40, 39);
 
 .text-box {
 font-size: 15px;
-}
-
-.btnCurs {
-padding: 5px;
-bottom: 2%;
 }
 
 }
