@@ -116,7 +116,7 @@ background-image: url(macarun.jpg);
 background-repeat: no-repeat;
 background-size: cover;
 position: relative;
-height: auto;
+height: 900px;
 bottom: 0;
 }
 
@@ -310,7 +310,6 @@ border-radius: 20px;
 }
 
 .text-box {
-
 color: black;
 font-size: 18px;
 }
@@ -336,8 +335,8 @@ border: 1px solid rgb(43, 32, 18);
 }
 
 #btn:hover {
-  color: bisque;
-  background-color: rgb(197, 132, 100);
+color: bisque;
+background-color: rgb(197, 132, 100);
 }
 
 .container-learning {
@@ -577,6 +576,10 @@ color: rgb(40, 40, 39);
 
 .text-box {
 font-size: 15px;
+}
+  
+.Fon {
+height: auto;
 }
 
 }
